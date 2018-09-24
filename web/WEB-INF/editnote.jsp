@@ -16,10 +16,10 @@
         
         <h2>Edit Note</h2>
         
-            <form method="post" action="edit">
+            <form method="post" action="note">
                 
                 <span><h3>Title: </h3> <input type="text" value="${note.title}" name="title"></span> <br>
-                <h3>Content: </h3> <br> <textarea rows="4" cols="40" value="${note.content}" name="content">${note.content}</textarea>
+                <h3>Content: </h3> <br> <textarea rows="4" cols="40" name="content">${note.content}</textarea>
                 <br>
                 <input type="submit" value="Submit">
                 
