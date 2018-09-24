@@ -50,6 +50,7 @@ public class NoteServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
+        //get attributes
         String title = request.getParameter("title");
         String content = request.getParameter("content");
         
